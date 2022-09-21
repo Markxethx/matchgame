@@ -13,21 +13,20 @@
       <div class="stats">
         <div id="statsContent">
           <h3>
-            Score: <span id="currentScore">7</span> /
-            <span id="totalAvailable">20</span>
+            Score: <span id="currentScore"></span> /
+            <span id="totalAvailable"></span>
           </h3>
 
           <p class="items">
-            <span id="number"></span>6<span id="item-name"> ducks</span>
+            <span id="number"></span><span id="item-name"></span>
           </p>
           <div class="match-buttons">
-            <button>&#10003;</button>
-            <button>&#10007;</button>
+            <button onclick="match()">&#10003;</button>
+            <button onclick="noMatch()">&#10007;</button>
           </div>
         </div>
       </div>
       <div class="imageArea">
-        <!--
         <h3 id="message"></h3>
         <div id="startScreen">
           <h1>Welcome to the <em>Number Match</em> game...</h1>
@@ -41,11 +40,11 @@
             You have <span id="timeSetting"></span> seconds to decide.
           </p>
         </div>
-        <button id="play-button">
+        <button id="play-button" onclick="play()">
           Play!
-        </button> -->
+        </button>
         <div id="imageContainer">
-          <img src="images/macaroons.jpg" alt="" />
+          <img src="" alt="">
         </div>
       </div>
     </main>
